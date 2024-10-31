@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .calculator{
+            max-width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        input {
+            width: 50px;
+        }
+        button{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="number" id="num1" placeholder="0">
+        <input type="number" id="num2" placeholder="0">
+        <br>
+        <button id ="add">+</button>
+        <button id ="substract">-</button>
+        <button id ="multiply">*</button>
+        <button id ="divide">/</button>
+        <h3>Result: <span id="result">0</span></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
